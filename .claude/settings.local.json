@@ -5,7 +5,12 @@
       "Bash(gh:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(python3:*)",
+      "Bash(if [ -f \"outlook_reader.log\" ])",
+      "Bash(then tail -100 outlook_reader.log)",
+      "Bash(else echo \"Log file not found in current directory\")",
+      "Bash(fi)"
     ],
     "deny": [],
     "ask": []
